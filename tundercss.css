@@ -34,3 +34,27 @@ border-bottom: 2px solid rgb(133, 133, 203);
 .linkatNavbarit:hover {
      color: rgb(173, 82, 149);
 }
+
+.butonatNavbaritFlex{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 265px;
+}
+
+.butonatNavbar{
+   font-size: 15px;
+   width: auto;
+   padding: 10px 25px;
+   border-radius:30px ;
+   border-color: antiquewhite;
+   background-color:rgb(129, 48, 108);
+   border-style: solid;
+   color: antiquewhite;
+    font-family: 'FontiNavbarit';
+    border-width: 1px;
+}
+.butonatNavbar:hover{
+    background-color: rgb(173, 82, 149);
+}
