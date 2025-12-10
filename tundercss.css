@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(165, 165, 240);
+} 
+
+nav {
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+ gap: 50px;
+ background-color: rgb(165, 165, 240);
+ padding-left: 140px;
+ font-family: 'FontiNavbarit';
+border: none;
+border-bottom: 2px solid rgb(133, 133, 203);
+}
+.linkatNavbaritFlex {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+#logoTeNavBari{
+    width: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.linkatNavbarit{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.linkatNavbarit:hover {
+     color: rgb(173, 82, 149);
+}
